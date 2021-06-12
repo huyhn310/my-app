@@ -25,7 +25,7 @@ function App() {
 
           <span>{value}</span>
           <button className={styles.button}
-            arial-label="Decrement valusssss"
+            arial-label="Decrement value"
             onClick={()=>setValue(value-1)}
           >
             -
@@ -38,7 +38,7 @@ function App() {
           onChange={(e)=>{setAmount(Number(e.target.value))}}
           />
           <button className={styles.button}
-            arial-label="Add amount"
+            arial-label="Add amounts"
             onClick={()=>{setValue(value+amount)}}
           >
             Add amount
