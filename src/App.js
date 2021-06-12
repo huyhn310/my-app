@@ -25,7 +25,7 @@ function App() {
 
           <span>{value}</span>
           <button className={styles.button}
-            arial-label="Decrement values"
+            arial-label="Decrement value"
             onClick={()=>setValue(value-1)}
           >
             -
